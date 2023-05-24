@@ -8,6 +8,16 @@ https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
 
 Assuming that you already download and install [Emscripten](https://emscripten.org/docs/getting_started/downloads.html)
 
+If `emsdk` command doesn't work, write this instead:
+
+```bash
+# Powershell
+./emsdk.ps1 install latest
+
+# CMD
+./emsdk.bat install latest
+```
+
 ### Add `emsdk` and `emcc` command to environment variables:
 
 1. Go to start menu, search for Environment Variable. Click on `Edit the system environment variables`
