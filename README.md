@@ -47,3 +47,9 @@ emcc <FILE_NAME>.c -o <FILE_NAME>.html
 The command will generate an HTML, JS, and a WASM file.
 
 You can run the HTML via VSCode [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+### Using custom HTML template
+
+```bash
+emcc -o hello2.html hello2.c -O3 --shell-file html_template/shell_minimal.html
+```
